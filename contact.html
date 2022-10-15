@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manash Choudhuri - Web Developer, Programmer, ML inthusiast</title>
+    <link rel="stylesheet" href="style.css" class="rel" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <li><a href="/service.html">Sevices</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="contactForm">
+          <h1>Contact me for work/general enquiries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="clientName" class="form-label">Name</label>
+              <input
+                type="name"
+                class="form-control"
+                id="clientName"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="clientEmail" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="clientEmail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email & phone with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="clientPhone" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="clientPhone" />
+            </div>
+            <div class="mb-3">
+              <label for="clientEnquiery" class="form-label">Enquiery</label>
+              <input
+                type="quiery"
+                class="form-control"
+                id="clientEnquiery"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3" id="form-check">
+              <input type="checkbox" class="form-check-input" id="IsClient" />
+              <label class="form-check-label" for="IsClient"
+                >I want you to work on a project with me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
